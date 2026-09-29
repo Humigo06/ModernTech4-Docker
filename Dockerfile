@@ -24,4 +24,4 @@ EXPOSE 3000
 
 # The default command to run when the container starts
 ## Command that runs the application
-CMD ["npm", "start"]
+CMD node start
