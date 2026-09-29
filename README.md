@@ -53,7 +53,7 @@ docker run -p 3000:3000 my-node-app
 ## Reflection Question
 **Answer the following question in the space below**: How does containerization with Docker differ from using virtual machines, and why might a development team choose Docker containers over VMs for deploying applications like the one you just containerized?
 
-
+While virtual machines help with environment consistency and application isolation, running multiple operating systems takes substantial memory and storage. By comparison, Docker is faster and uses fewer resources while still meeting the isolation and consistency needs. Teams may choose Docker because it is easy for new team members to set up, and it isolates dependencies across the services the team offers.
 
 ## Application Requirements for Docker
 
